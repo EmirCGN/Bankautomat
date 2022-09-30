@@ -153,6 +153,6 @@
             else { option = 0; }
         }
         while (option != 4);
-        Console.WriteLine("Auf Wiedersehen " + currentUser.getVorname() + " " + currentUser.getNachname() + "!");
+        Console.WriteLine("Auf Wiedersehen " + currentUser.getVorname() + " " + currentUser.getNachname() + "!"); 
     }
 }
