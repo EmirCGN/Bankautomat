@@ -8,6 +8,7 @@
 
     public kartenInhaber(string kartennum, int pin, string vorname, string nachname, double kontostand)
     {
+        //Namen Zuweisen
         this.kartennum = kartennum;
         this.pin = pin;
         this.vorname = vorname;
@@ -15,6 +16,7 @@
         this.kontostand = kontostand;
     }
 
+    //Methoden
     public String getNum()
     {
         return kartennum;
@@ -36,6 +38,7 @@
         return kontostand;
     }
 
+    //Konstruktor wo man die Methoden initialisiert
     public void setNum(String newKartennum)
     {
         kartennum = newKartennum;
@@ -60,6 +63,7 @@
 
     public static void Main(String[] args)
     {
+        //Auswahl Möglichkeiten
         void printOptionen()
         {
             Console.WriteLine("Bitte wähle einer der Folgenden Optionen aus!");
@@ -68,14 +72,17 @@
             Console.WriteLine("3. Kontostand anzeigen");
             Console.WriteLine("4. Exit");
         }
+
+        //Geld einzahlen
         void einzahlen(kartenInhaber currentUser)
         {
             Console.WriteLine("Wie viel Euro möchten Sie einzahlen?");
             double einzahlen = Double.Parse(Console.ReadLine());
             currentUser.setKontostand(einzahlen);
-            Console.WriteLine("Die Einzahlung war Erfolgreich! Ihr neuer Kontostand ist: " + currentUser.getKontostand());
+            Console.WriteLine("Die Einzahlung war Erfolgreich!\n Kontostand: " + currentUser.getKontostand() + "\n" );
         }
 
+        //Geld Abheben
         void abheben(kartenInhaber currentUser)
         {
             Console.WriteLine("Wie viel Euro möchten Sie von ihr Konto abheben?");
@@ -92,13 +99,15 @@
             }
         }
 
+        //Ausgabe von Kontostand/Saldo
         void kontostand(kartenInhaber currentUser)
         {
             Console.WriteLine("Aktueller Kontostand: " + currentUser.getKontostand()+"\n");
         }
 
+        //Abspeichern von Daten
         List<kartenInhaber> kartenInhaber = new List<kartenInhaber>();
-        kartenInhaber.Add(new kartenInhaber("68500105178297336485", 1234, "Caillou", "Musterman", 150.31));
+        kartenInhaber.Add(new kartenInhaber("68500105178297336485", 1234, "Emir", "Musterman", 150.31));
         kartenInhaber.Add(new kartenInhaber("8506195138297956485", 2341, "Manuellsen", "Abi", 9999999999999999.31));
 
         //Begrüßt den Nutzer 
@@ -146,7 +155,7 @@
                 option = int.Parse(Console.ReadLine());
             }
             catch { }
-            if (option == 2) { einzahlen(currentUser); }
+            if (option == 1) { einzahlen(currentUser); }
             else if (option == 2) { abheben(currentUser); }
             else if (option == 3) { kontostand(currentUser); }
             else if (option == 4) { break; }
