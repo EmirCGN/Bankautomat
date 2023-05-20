@@ -1,0 +1,23 @@
+[
+  {
+    "KartenNum": "68500105178297336485",
+    "Pin": 1234,
+    "Vorname": "Emir",
+    "Nachname": "Musterman",
+    "Kontostand": 150.31
+  },
+  {
+    "KartenNum": "8506195138297956485",
+    "Pin": 2341,
+    "Vorname": "Manuellsen",
+    "Nachname": "Abi",
+    "Kontostand": 10000000000000000.0
+  },
+  {
+    "KartenNum": "d",
+    "Pin": 1204,
+    "Vorname": "Muhammed Emir",
+    "Nachname": "Köroglu",
+    "Kontostand": 0.0
+  }
+]

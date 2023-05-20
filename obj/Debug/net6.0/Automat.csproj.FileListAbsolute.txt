@@ -1,0 +1,17 @@
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Automat.exe
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Automat.deps.json
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Automat.runtimeconfig.json
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Automat.dll
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Automat.pdb
+C:\Users\korog\Source\Repos\Bankautomat\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.csproj.AssemblyReference.cache
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.AssemblyInfoInputs.cache
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.AssemblyInfo.cs
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.csproj.CoreCompileInputs.cache
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.csproj.CopyComplete
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.dll
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\refint\Automat.dll
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.pdb
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\Automat.genruntimeconfig.cache
+C:\Users\korog\Source\Repos\Bankautomat\obj\Debug\net6.0\ref\Automat.dll

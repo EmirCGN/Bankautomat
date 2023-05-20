@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LTNKTLD9BGt6/yI8VILG7dcDuuOkg/CTnQMXj7DMLEUsUcFs14+NY/YH/x2sGRxg75CSWJpkpa3Hadnf/R8kBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\korog\\Source\\Repos\\Bankautomat\\Automat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\korog\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
